@@ -1,0 +1,33 @@
+body {
+    font-family: "Gulzar""Poppins";
+}
+
+.background {
+    outline: 2em;
+    background-image: url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text-align {
+    text-align: center;
+    color: white;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#ff1500, tomato);
+    padding: 10px 20px;
+    font-weight: 700;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.align {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
