@@ -31,3 +31,28 @@ body {
 h1 {
     font-size: 50px;
 }
+
+.flexible {
+    display: flex;
+    margin-bottom: 100px;
+    padding-right: 100px;
+}
+
+.resize1 {
+    background-color: #d6f2f28d;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.resize2 {
+    background-color: #dfadb59e;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.resize3 {
+    background-color: #efeda78e;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
