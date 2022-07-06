@@ -2,6 +2,8 @@ body {
     font-family: "Gulzar""Poppins";
 }
 
+
+
 .background {
 
     background-image: url(images/donation8.jpg);
@@ -14,12 +16,12 @@ body {
 
 .text-align {
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 
 .text {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 300px;
 
 }
 
@@ -31,26 +33,39 @@ body {
 
 .donateammount {
     display: flex;
-    margin-left: 400px;
+    margin-left: 200px;
 
 
 }
 
 .donateammount p {
     border: 0.5px solid #d2d2d29a;
-    margin: 10px;
-    padding: 20px 20px;
+    margin: 10px 20px;
     font-size: 40px;
     background-color: rgba(212, 210, 210, 0.149);
     font-weight: bold;
+    height: 80px;
+    padding-top: 30px;
+    border-radius: 5px;
 
 
+}
+
+.textadj {
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .colorp2 {
     border: 2px solid #f64545;
     color: #f46d6db4;
     background-color: #fc81818f;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 32px;
+    border-radius: 5px;
+
 
 }
 
@@ -74,6 +89,13 @@ body {
 
 .align {
     text-align: center;
+}
+
+.imgintop {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
 }
 
 h1 {
@@ -142,6 +164,7 @@ h1 {
 
 .updated input {
     margin-left: 120px;
+    color: gray;
 }
 
 .footer {
@@ -154,5 +177,6 @@ h1 {
 .footer h3 {
     color: #f64545;
     font-weight: 800;
+    font-family: "Finlandica""Gulzar""Poppins";
 
 }
