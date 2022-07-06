@@ -72,7 +72,7 @@ body {
 .altammount p {
     text-align: center;
     color: rgba(174, 173, 173, 0.63);
-    border-bottom: 1px solid rgba(174, 173, 173, 0.63);
+    border-bottom: 1px dotted rgba(174, 173, 173, 0.63);
     margin: 10px 300px;
     padding-bottom: 5px;
 }
