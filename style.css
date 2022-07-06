@@ -143,3 +143,16 @@ h1 {
 .updated input {
     margin-left: 120px;
 }
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+}
+
+.footer h3 {
+    color: #f64545;
+    font-weight: 800;
+
+}
