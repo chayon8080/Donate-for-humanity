@@ -3,15 +3,63 @@ body {
 }
 
 .background {
-    outline: 2em;
+
     background-image: url(images/donation8.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 100px;
 }
 
 .text-align {
     text-align: center;
     color: white;
+}
+
+.text {
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.donatetext {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.donateammount {
+    display: flex;
+    margin-left: 400px;
+
+
+}
+
+.donateammount p {
+    border: 0.5px solid #d2d2d29a;
+    margin: 10px;
+    padding: 20px 20px;
+    font-size: 40px;
+    background-color: rgba(212, 210, 210, 0.149);
+    font-weight: bold;
+
+
+}
+
+.colorp2 {
+    border: 2px solid #f64545;
+    color: #f46d6db4;
+    background-color: #fc81818f;
+
+}
+
+.altammount p {
+    text-align: center;
+    color: rgba(174, 173, 173, 0.63);
+    border-bottom: 1px solid rgba(174, 173, 173, 0.63);
+    margin: 10px 300px;
+    padding-bottom: 5px;
 }
 
 .link-button {
@@ -35,19 +83,24 @@ h1 {
 .flexible {
     display: flex;
     margin-bottom: 100px;
+    margin-left: 100px;
     padding-right: 100px;
+    margin-right: 20px;
 }
 
 .resize1 {
     background-color: #d6f2f28d;
     padding: 10px 20px;
     border-radius: 10px;
+    margin: 10px;
+
 }
 
 .resize2 {
     background-color: #dfadb59e;
     padding: 10px 20px;
     border-radius: 10px;
+    margin: 10px;
 
 }
 
@@ -55,4 +108,39 @@ h1 {
     background-color: #efeda78e;
     padding: 10px 20px;
     border-radius: 10px;
+    margin: 10px;
+}
+
+.donatebutton {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.picalign {
+    margin-right: 300px;
+}
+
+.subscribe {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.updated {
+    margin: 100px 450px;
+    background-color: #fcda92ee;
+    padding: 50px 40px;
+}
+
+.link-button3 {
+    text-decoration: none;
+    background-image: linear-gradient(#ff1500, tomato);
+    padding: 0.8px 2px;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+.updated input {
+    margin-left: 120px;
+
 }
