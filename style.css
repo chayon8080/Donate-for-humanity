@@ -110,6 +110,10 @@ h1 {
     margin-right: 20px;
 }
 
+.logoresize {
+    text-align: left;
+}
+
 .resize1 {
     background-color: #d6f2f28d;
     padding: 10px 20px;
